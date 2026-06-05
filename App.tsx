@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Compass, FolderGit2, CheckSquare, Flame, Sparkles, Plus, Menu, X, Rocket, Layers } from 'lucide-react';
+import DashboardView from './DashboardView';
+import SkillsView from './SkillsView';
+import ProjectsView from './ProjectsView';
+import FocusSession from './FocusSession';
+import TasksView from './TasksView';
+import SettingsView from './SettingsView';
+import SupportView from './SupportView';
 import Sidebar from './Sidebar';
-import DashboardView from './components/DashboardView';
-import ProjectsView from './components/ProjectsView';
-import TasksView from './components/TasksView';
-import SkillsView from './components/SkillsView';
-import SettingsView from './components/SettingsView';
-import SupportView from './components/SupportView';
-import FocusSession from './components/FocusSession';
 import { Task, Project, Skill, Goal, UserProfile, ProjectIdea } from './types';
 
 // Initial Mock records structured to support diverse practice areas (Culinary, Creative, Tech)
