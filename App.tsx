@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Compass, FolderGit2, CheckSquare, Flame, Sparkles, Plus, Menu, X, Rocket, Layers } from 'lucide-react';
-import Sidebar from './components/Sidebar';
+import Sidebar from './Sidebar';
 import DashboardView from './components/DashboardView';
 import ProjectsView from './components/ProjectsView';
 import TasksView from './components/TasksView';
